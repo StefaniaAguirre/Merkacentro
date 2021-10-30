@@ -1,0 +1,38 @@
+.input-group{
+    margin: 5px;
+}
+.checkbox-fade{
+    margin: 5px;
+}
+.col-sm-5{
+    margin: 5px;
+}
+
+.auth-box {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center; 
+    text-align: center; 
+}
+
+.auth-box h3 {
+    color: #666666;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.auth-box .input-group {
+    margin-bottom: 0;
+}
+ 
+.login {
+    padding: 5px;
+    margin: 2px;
+    align-items: center;
+    background-color: #2196F3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
