@@ -1,0 +1,65 @@
+
+.fondoHorario{
+    background-color: #F8981D;
+}
+.tablaHorario{
+    border-collapse: collapse;
+    background-color: #06976070;
+}
+
+.botonLunes{
+    background-color: #06976070;
+    }
+
+
+.botonLunes:hover{
+background-color: #F8981D;
+}
+.botonMartes{
+    background-color: #06976070   ;
+    }
+
+
+.botonMartes:hover{
+background-color: #F8981D;
+}
+.botonMiercoles{
+    background-color: #06976070   ;
+    }
+
+
+.botonMiercoles:hover{
+background-color: #F8981D;
+}
+.botonJueves{
+    background-color: #06976070   ;
+    }
+
+
+.botonJueves:hover{
+background-color: #F8981D;
+}
+.botonViernes{
+    background-color: #06976070   ;
+    }
+
+
+.botonViernes:hover{
+background-color: #F8981D;
+}
+.botonSabado{
+    background-color: #06976070   ;
+    }
+
+
+.botonSabado:hover{
+background-color: #F8981D;
+}
+.botonDomingo{
+    background-color: #06976070   ;
+    }
+
+
+.botonDomingo:hover{
+background-color: #F8981D;
+}
