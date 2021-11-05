@@ -1,0 +1,56 @@
+*{
+padding :1;
+margin: 1;
+}
+#miTabla{
+   border-collapse: collapse;
+  background-color: rgb(211, 205, 202);
+}
+
+body{
+    padding: 3%;
+    margin: 3%;
+    background-color: rgb(140, 140, 196);
+}
+#botonB{
+    margin: 0 auto;
+    padding: 0;
+    width: 1500px;
+    background-color: rgb(140, 140, 196);
+}
+#botonBuscar:hover{
+    color: red;
+    margin: 1%;
+    background-color: rgb(116, 116, 221);
+}
+#botonBuscar{
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(222, 222, 245);
+}
+#botonEliminar{
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(222, 222, 245);
+}
+#botonActualizar{
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(222, 222, 245);
+}
+#botonCrear{
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(222, 222, 245);
+}
+
+#botonCrear:hover{
+    background-color: rgb(73, 73, 218);
+}
+#botonActualizar:hover{
+    background-color: rgb(73, 73, 218);
+}
+#botonEliminar:hover{
+    background-color: rgb(73, 73, 218);
+}
+
