@@ -1,11 +1,40 @@
 
 .fondoHorario{
+    padding: 5px;
+    margin: 2px;
+    align-items: center;
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
     background-color: #F8981D;
 }
 .tablaHorario{
     border-collapse: collapse;
-    background-color: #06976070;
+    background-color: #0066ff70;
 }
+.titPag1{
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.logo{
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contenedor1{
+    margin: 10px;
+    background-color: #fff;
+}
+.semanal{
+    
+}
+
 
 .botonLunes{
     background-color: #06976070;
