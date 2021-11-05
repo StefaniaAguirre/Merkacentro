@@ -11,14 +11,14 @@
 }
 .tablaHorario{
     border-collapse: collapse;
-    background-color: #0066ff70;
+    background-color: #006d4371;
 }
 .titPag1{
     margin: 0px;
     padding: 5px;
-    display: flex;
+    display: flex;  
     justify-content: space-around;
-    background-color: blue;
+    background-color: #fff;
 }
 
 .logo{
@@ -31,8 +31,9 @@
     margin: 10px;
     background-color: #fff;
 }
-.semanal{
-    
+.contenidoTabla{
+    display: flex;
+    justify-content: center;
 }
 
 
