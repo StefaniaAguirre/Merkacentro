@@ -9,7 +9,6 @@ import { InfoContratoComponent } from './modules/empleados/info-contrato/info-co
 import { HorariosComponent } from './modules/horarios/horarios.component';
 import { CalendarioComponent } from './modules/calendario/calendario.component';
 import { LoginComponent } from './modules/login/login.component';
-import { CardComponent } from './modules/card/card.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,8 +18,7 @@ import { CardComponent } from './modules/card/card.component'
     InfoContratoComponent,
     HorariosComponent,
     CalendarioComponent,
-    LoginComponent,
-    CardComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,
