@@ -9,7 +9,6 @@ import { InfoContratoComponent } from './modules/empleados/info-contrato/info-co
 import { HorariosComponent } from './modules/horarios/horarios.component';
 import { CalendarioComponent } from './modules/calendario/calendario.component';
 import { LoginComponent } from './modules/login/login.component';
-
 @NgModule({
   declarations: [
     AppComponent,

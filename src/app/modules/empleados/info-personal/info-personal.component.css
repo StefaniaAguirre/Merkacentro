@@ -6,51 +6,57 @@ margin: 1;
    border-collapse: collapse;
   background-color: rgb(211, 205, 202);
 }
+.empleados{
+    background-color:#F8981D;
+}
 
 body{
     padding: 3%;
     margin: 3%;
-    background-color: rgb(140, 140, 196);
+    
 }
-#botonB{
-    margin: 0 auto;
-    padding: 0;
-    width: 1500px;
-    background-color: rgb(140, 140, 196);
-}
-#botonBuscar:hover{
-    color: red;
+.botonSelecionar{
+    background-color: rgb(222, 222, 245);
     margin: 1%;
-    background-color: rgb(116, 116, 221);
+    padding: 1%;
 }
-#botonBuscar{
+
+.botonBuscar{
     margin: 1%;
     padding: 1%;
     background-color: rgb(222, 222, 245);
 }
-#botonEliminar{
+.botonEliminar{
     margin: 1%;
     padding: 1%;
     background-color: rgb(222, 222, 245);
 }
-#botonActualizar{
+.botonActualizar{
     margin: 1%;
     padding: 1%;
     background-color: rgb(222, 222, 245);
 }
-#botonCrear{
+.botonCrear{
     margin: 1%;
     padding: 1%;
     background-color: rgb(222, 222, 245);
 }
 
-#botonCrear:hover{
-    background-color: rgb(73, 73, 218);
+.botonSelecionar:hover{
+    background-color: #06976070 ;
 }
-#botonActualizar:hover{
-    background-color: rgb(73, 73, 218);
+
+.botonBuscar:hover{
+    margin: 1%;
+    background-color:#06976070; ;
 }
-#botonEliminar:hover{
-    background-color: rgb(73, 73, 218);
+.botonCrear:hover{
+    background-color: #06976070 ;
+}
+.botonActualizar:hover{
+    background-color: #06976070 ;
+}
+.botonEliminar:hover{
+    background-color: #06976070;
 }
 
