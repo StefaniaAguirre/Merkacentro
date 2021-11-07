@@ -1,0 +1,23 @@
+.contrato{
+    background-color: rgb(222, 222, 245);
+}
+body{
+    padding: 3%;
+    margin: 1%;
+    margin-left: 20%;
+    height: 550px; 
+}
+.inicioContrato{
+    margin: 0.5%;
+    padding: 0.5%;
+}
+.finContrato{
+    margin: 0.5%;
+    padding: 0.5%;
+}
+.codContrato{
+    margin: 0.5%;
+    padding: 0.5%;
+}
+.info{
+}

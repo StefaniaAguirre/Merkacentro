@@ -2,48 +2,50 @@
     padding :1;
     margin: 1;
     }
+
     #miTabla{
        border-collapse: collapse;
-      background-color: rgb(142, 185, 138);
     }
+
     .empleados{
-        background-color:#003f08;
         width:100%;
-        height: 650px;
-      
-    
-        
+        height: 650px;  
     }
+
     .botonB{
     justify-content:center;
     }
+
     .logo{
         border-radius: 2px;
         margin: 5px;
         padding: 5px;
         justify-content:center;
-    
     }
+
     .encabezado {
         margin: 0.2cm;
         padding: 0.2cm;
         border: 0.2cm;
         justify-content:center;
-        width:50%;
-        
+        width:50%; 
     }
+
     .n{
         justify-content:center;
     }
+
     body{
-    
         padding: 3%;
         margin: 1%;
-        background-color: darkorange;
-        justify-content:center;
-        height: 550px;
-        
+        margin-left: 20%;
+        height: 550px; 
     }
+
+    .edit{
+        color: blue;
+    }
+
     .botonSelecionar{
         background-color: rgb(222, 222, 245);
         margin: 0.5%;
@@ -55,24 +57,17 @@
         padding: 0.5%;
         background-color: rgb(222, 222, 245);
     }
+
     .cedula{
         margin: 0.5%;
         padding: 0.5%;
     }
+
     .nombre{
         margin: 0.5%;
         padding: 0.5%;
     }
-    .botonEliminar{
-        margin: 0.5%;
-        padding: 0.5%;
-        background-color: rgb(222, 222, 245);
-    }
-    .botonActualizar{
-        margin: 0.5%;
-        padding: 0.5%;
-        background-color: rgb(222, 222, 245);
-    }
+    
     .botonCrear{
         margin: 0.5%;
         padding: 0.5%;
@@ -86,14 +81,9 @@
     .botonBuscar:hover{
         background-color:#06976070; ;
     }
+
     .botonCrear:hover{
         background-color: #06976070 ;
-    }
-    .botonActualizar:hover{
-        background-color: #06976070 ;
-    }
-    .botonEliminar:hover{
-        background-color: #06976070;
     }
     
     
