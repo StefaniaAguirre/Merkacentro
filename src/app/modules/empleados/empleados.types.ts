@@ -11,7 +11,9 @@ export interface Empleado {
 }
 
 export interface Contrato{
-
+    fechaInicio: Date;
+    fechafin: Date;
+    
 }
 
 export interface Vacaciones{
