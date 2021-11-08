@@ -10,6 +10,12 @@ import { HorariosComponent } from './modules/horarios/horarios.component';
 import { CalendarioComponent } from './modules/calendario/calendario.component';
 import { LoginComponent } from './modules/login/login.component';
 import { EmpleadosComponent } from './modules/empleados/empleados.component';
+import { ProfilesComponent } from './modules/Profiles/profiles.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,11 +26,14 @@ import { EmpleadosComponent } from './modules/empleados/empleados.component';
     HorariosComponent,
     CalendarioComponent,
     LoginComponent,
-    EmpleadosComponent
+    EmpleadosComponent,
+    ProfilesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

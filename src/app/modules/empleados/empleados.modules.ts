@@ -1,13 +1,19 @@
-// import { MatIconModule } from '@angular/material/icon';
-// import { NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
+import { InfoContratoComponent } from './info-contrato/info-contrato.component';
+import { InfoPermisosComponent } from './info-permisos/info-permisos.component';
+import { InfoPersonalComponent } from './info-personal/info-personal.component';
 
-// @NgModule({
+@NgModule({
+    declarations: [
+        InfoContratoComponent,
+        InfoPermisosComponent,
+        InfoPersonalComponent
+    ],
+    imports     : [
+        
+    ]
     
-//     imports     : [
-//       MatIconModule,
-//     ]
-    
-// })
-// export class EmpleadoModule
-// {
-// }
+})
+export class EmpleadoModule
+{
+}

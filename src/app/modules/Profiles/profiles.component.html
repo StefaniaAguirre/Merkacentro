@@ -1,39 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Side Menu</title>
-</head>
-<body>
-    <div id="sidemenu" class="menu-collapsed">
-        <!-- HEADER -->
-        <div id="header">
-            <div id="tittle"><span>Vida MRR</span></div>
-            <div id="menu-btn">
-                <div class="btn-hamburger"></div>
-                <div class="btn-hamburger"></div>
-                <div class="btn-hamburger"></div>
-            </div>
-        </div>
-        <!-- PROFILE -->
-        <div id="profile">
-            <div id="photo"><img src="admin.png" alt=""></div>
-            <div id="name"><span>Administrador</span></div>
-        </div>
-        <!-- ITEMS -->
-
-        <div id="menu-items">
-            <div class="item">
-                <a href="#">
-                    <div class="icon"><img src= "userProfile.png" alt>
-                        <div class="tittle"><span>Cloud services</span></div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-
-</body>
-</html>
+<div class="example-container" [class.example-is-mobile]="mobileQuery.matches" *ngIf="shouldRun">
+    <mat-toolbar color="primary" class="example-toolbar">
+      <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+      <h1 class="example-app-name">Responsive App</h1>
+    </mat-toolbar>
+  
+    <mat-sidenav-container class="example-sidenav-container"
+                           [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+      <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'"
+                   [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+        <mat-nav-list>
+          <a mat-list-item routerLink="." *ngFor="let nav of fillerNav">{{nav}}</a>
+        </mat-nav-list>
+      </mat-sidenav>
+  
+      <mat-sidenav-content>
+        <p *ngFor="let content of fillerContent">{{content}}</p>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+  
+  <div *ngIf="!shouldRun">Please open on Stackblitz to see result</div>
+  

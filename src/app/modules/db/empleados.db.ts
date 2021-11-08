@@ -1,6 +1,6 @@
-// import { empleado } from "../empleados/empleados.types";
+// import { empleados } from "../empleados/empleados.types";
 
-// export const Empleado: empleado[] = [
+// export const Empleados: empleados[] = [
 //     {
 //         id: 1,
 //         nombre:"Juan Camilo Mancera López",
