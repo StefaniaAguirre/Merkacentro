@@ -1,0 +1,43 @@
+.cuerpo{
+    margin-left: 22%;
+    
+    width: 100%;
+    height: 100%;
+    background-color: #F8981D;
+    
+    }
+    .fondoHorario{
+      /*  padding: 5px;
+        margin: 2px;
+       /* align-items: center;*/
+        
+        display: flex;
+       /* justify-content: center;*/
+        width: 100%;
+        height: 100%;
+        background-color: #F8981D;
+    }
+    .tablaDiario{
+        border-collapse: collapse;
+        background-color: #006d4371;
+    }
+    .titPag1{
+        margin: 0px;
+        padding: 5px;
+        display: flex;  
+        justify-content: space-around;
+        background-color: #fff;
+    }
+    .logo{
+        border-radius: 20px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .contenedor1{
+        margin: 10px;
+        background-color: #fff;
+    }
+    .contenidoTabla{
+        display: flex;
+        justify-content: center;
+    }
