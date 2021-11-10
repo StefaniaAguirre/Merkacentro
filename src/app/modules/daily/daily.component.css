@@ -1,25 +1,52 @@
 .cuerpo{
-    margin-left: 22%;
-    
-    width: 100%;
+    width: 70%;
     height: 100%;
-    background-color: #F8981D;
+    padding: 1.5%;
+    margin: 1.5%;
+    margin-left: 20%;
+    border-bottom: 1px;
+    border-bottom-left-radius: 1px;
+    border-bottom-style:solid ; 
+    border-bottom-color: rgb(211, 208, 208);
+    border-top-color: rgb(211, 208, 208);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(211, 208, 208);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-color: rgb(211, 208, 208);
+    border-left-style: solid;
+    border-left-width: 1px;
     
+    }  
+    .n{
+        border-collapse: collapse;
+        width: 100%;
+    } 
+    .tablaDiario{
+        margin: 0.2cm;
+        padding: 0.2cm;
+        border: 0.2cm;
+        width: 98%;
+        background-color: #ffffff71;
+        border-bottom: 1px;
+        border-bottom-left-radius: 1px;
+        border-bottom-style:solid ; 
+        border-bottom-color: rgb(211, 208, 208);
+        border-top-color: rgb(211, 208, 208);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgb(211, 208, 208);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-left-color: rgb(211, 208, 208);
+        border-left-style: solid;
+        border-left-width: 1px;
+        background-color: #06976070;
     }
     .fondoHorario{
-      /*  padding: 5px;
-        margin: 2px;
-       /* align-items: center;*/
-        
-        display: flex;
-       /* justify-content: center;*/
-        width: 100%;
-        height: 100%;
-        background-color: #F8981D;
-    }
-    .tablaDiario{
-        border-collapse: collapse;
-        background-color: #006d4371;
+        width:100%;
+        height: 650px;
     }
     .titPag1{
         margin: 0px;
@@ -32,11 +59,21 @@
         border-radius: 20px;
         margin: 5px;
         padding: 5px;
+        border-bottom: 1px;
+        border-bottom-left-radius: 1px;
+        border-bottom-style:solid ; 
+        border-bottom-color: rgb(211, 208, 208);
+        border-top-color: rgb(211, 208, 208);
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-right-color: rgb(211, 208, 208);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-left-color: rgb(211, 208, 208);
+        border-left-style: solid;
+        border-left-width: 1px;
     }
-    .contenedor1{
-        margin: 10px;
-        background-color: #fff;
-    }
+    
     .contenidoTabla{
         display: flex;
         justify-content: center;
